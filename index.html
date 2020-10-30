@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Restaurant</title>
+    
+    <link rel="stylesheet" href="styles/globalstyles.css">
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/welcome_section.css">
+
+</head>
+
+<body>
+
+    <!-- This is the Navbar Container -->
+    <header class="nav-header">
+        <div class="logo">
+            <h1 > Taste of Algeria </h1>
+        </div>
+
+        <input type="checkbox" id="drop-toggle" class="drop-toggle" />
+        <nav>
+            <ul>
+                <!-- This creates an unordered list -->
+                <hr>
+                <li> <a href="index.html">Home</a> </li>
+                <hr>
+                <li> <a href="Menu.html">Menu</a> </li>
+                <hr>
+                <li> <a href="About_Us.html">About Us</a> </li>
+            </ul>
+        </nav>
+        
+        <!-- This tag creates a label which connects to the drop toggle class. The class itself creates a clickable element that also works for the dropdown itself. -->
+        <!-- You can only reference elements with an ID when using "for". -->
+
+        <label for="drop-toggle" class="drop-toggle-label">
+            <div class="hamburger"></div>
+            <div class="hamburger"></div>
+            <div class="hamburger"></div>
+        </label>
+
+    </header>
+    
+    <div class="background">
+
+        <div class="welcome-section">
+        
+            <header class="welcome-header">
+                <h1 >  Welcome!  </h1>
+            </header>
+
+            
+            <div class="welcome-body">
+                
+                <p> Come for a visit to get a taste of our authentic Algerian Cuisine! </p>    
+                
+                <img class ="welcome-image" src="https://wallpapercave.com/wp/wp3500351.jpg" alt="Flag"/>
+
+                <p> Have a look at our menu! </p>
+
+                <div class="menu-link">
+                    <a href="Menu.html">Menu</a>
+                </div>
+
+                <p> Want to know more about us?</p>
+
+                <div class="about-link">
+                    <a href="About_Us.html"> About Us </a>
+                </div>
+
+            </div>
+           
+        </div>
+        
+    </div>
+    
+
+</body>
+
+</html>

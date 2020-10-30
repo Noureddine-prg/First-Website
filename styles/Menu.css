@@ -1,0 +1,41 @@
+.menu-section {
+  background: rgba(11, 14, 15, 0.95);
+  margin: -5rem auto;
+  height: 52rem;
+  width: 80rem;
+  font-family: "Dancing Script", cursive;
+  border: solid;
+  border-left-color: red;
+  border-right-color: red;
+  border-top-color: green;
+  border-bottom-color: green;
+  border-width: 0.8rem;
+  color: lightcoral;
+}
+
+.table-style {
+  font-family: "Architects Daughter", cursive;
+  width: 80rem;
+  height: 40rem;
+  margin: 0%;
+  border: 0%;
+}
+.head-style {
+  width: 10rem;
+  font-size: 3rem;
+  padding: 15rem;
+}
+.table-body1 {
+  text-align: center;
+}
+.row {
+  padding: 10rem;
+}
+.table-images {
+  align-content: center;
+  width: 20rem;
+  height: 10rem;
+  border: solid;
+  border-radius: 0.5rem;
+  border-color: brown;
+}

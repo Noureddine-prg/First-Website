@@ -1,0 +1,36 @@
+.contact-us {
+  font-family: "Architects Daughter", cursive;
+  border: solid;
+  height: 25rem;
+  width: 30rem;
+  color: white;
+  background: rgba(11, 14, 15, 0.95);
+  border-style: ridge;
+  border-width: 0.7rem;
+}
+
+.FAQ {
+  font-family: "Architects Daughter", cursive;
+  color: white;
+  margin: auto;
+  margin-top: -5rem;
+  border: solid;
+  height: 30rem;
+  width: 31rem;
+  background: rgba(11, 14, 15, 0.95);
+  border-style: ridge;
+  border-width: 0.7rem;
+}
+.health-section {
+  font-family: "Architects Daughter", cursive;
+  position: absolute;
+  bottom: 30.2rem;
+  left: 90rem;
+  border: solid;
+  height: 25rem;
+  width: 30rem;
+  color: white;
+  background: rgba(11, 14, 15, 0.95);
+  border-style: ridge;
+  border-width: 0.7rem;
+}

@@ -1,0 +1,72 @@
+.welcome-section {
+  background: rgba(11, 14, 15, 0.95);
+  margin: -3rem auto;
+  padding: 1rem;
+  height: 50rem;
+  width: 50rem;
+  font-size: 1.3rem;
+  font-family: "Dancing Script", cursive;
+  border: solid;
+  border-color: green;
+}
+.welcome-image {
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  height: 20rem;
+  width: 30rem;
+  border-radius: 3rem;
+  border-style: solid;
+}
+.welcome-header {
+  text-align: center;
+  color: white;
+}
+
+.welcome-body {
+  text-align: center;
+  color: white;
+  margin-top: 2rem;
+  font-family: "Syne Mono", monospace;
+}
+.menu-link {
+  font-size: 2rem;
+  margin: 1rem auto;
+  padding: 0.5rem;
+  color: white;
+  border: solid;
+  border-color: white;
+  border-width: 2px;
+  border-radius: 0.4rem;
+  width: 6rem;
+  transition: background-color 0.5s;
+}
+/* The greater sign is directed at the element deepest inside the parent*/
+.menu-link > a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu-link:hover {
+  background-color: grey;
+}
+
+.about-link {
+  font-size: 2rem;
+  margin: 1rem auto;
+  padding: 0.5rem;
+  color: white;
+  border: solid;
+  border-color: white;
+  border-width: 2px;
+  border-radius: 0.4rem;
+  width: 6.5rem;
+  transition: background-color 0.7s;
+}
+.about-link > a {
+  text-decoration: none;
+  color: white;
+}
+.about-link:hover {
+  background-color: grey;
+}
